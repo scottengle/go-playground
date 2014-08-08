@@ -4,6 +4,7 @@ This repo is intended to be a collection of Go examples that can be independentl
 
 	go run <filename>
 
+---
 
 Filename | Description
 --- | ---
