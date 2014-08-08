@@ -14,7 +14,7 @@ func fibonacci() func() int {
 
 	n, n_minus_1, n_minus_2 := 0, 0, 0
 
-	// Return a closure bound n, n_minus_1 and n_minus_2
+	// Return a closure bound to n, n_minus_1 and n_minus_2
 	return func() int {
 
 		result := 0
@@ -31,7 +31,7 @@ func fibonacci() func() int {
 		}
 
 		// Remap the sequence values
-		// n_minus_2 << n_minus_1 << result
+		// result >> n_minus_1 >> n_minus_2
 		n_minus_2 = n_minus_1
 		n_minus_1 = result
 
