@@ -42,7 +42,7 @@ func Sqrt(x uint64) (float64, int) {
 }
 
 func main() {
-	fmt.Println("Approximate the square root of a number using using the Newton–Raphson method.\n")
+	fmt.Println("Approximate the square root of a number using the Newton–Raphson method.\n")
 
 	var num uint64 = 0
 
