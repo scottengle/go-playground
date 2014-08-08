@@ -4,6 +4,7 @@ This repo is intended to be a collection of Go examples that can be independentl
 
 	go run <filename>
 
+
 Note: You will see errors regarding main being redeclared when using go get on this repo. You can safely ignore this warning.
 
 ---
