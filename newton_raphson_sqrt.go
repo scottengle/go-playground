@@ -30,16 +30,18 @@ func Sqrt(x uint64) (float64, int) {
 	for {
 		z = z - (((z * z) - y) / (2 * z))
 
+		// Increment the iteration counter
+		i++
+
 		// Exit out when the delta of change is sufficiently low
 		if math.Abs(z-last) < 10e-16 {
 			break
 		}
 
 		last = z
-		i++
 	}
 
-	return z, i + 1
+	return z, i
 }
 
 func main() {

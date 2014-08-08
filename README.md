@@ -13,6 +13,7 @@ You will see errors regarding main being redeclared when using go get on this re
 Filename | Description
 --- | ---
 fibonacci.go | Calculates the value of a fibonacci sequence using a closure.
+newton_raphson_cbrt.go | Approximates the value of a complex cube root using the Newton-Raphson method.
 newton_raphson_sqrt.go | Approximates the value of a square root using the Newton-Raphson method.
 visual_slices.go | Generates a bluescale image using the code.google.com/p/go-tour/pic package. To see the image, run the contents of this file at the Go Playground: http://play.golang.org
 word_count.go | Determines word count of a string utilizing maps.
