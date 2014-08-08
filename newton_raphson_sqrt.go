@@ -5,9 +5,10 @@ import (
 	"math"
 )
 
+// Calculate the approximate value of the square root of x.
+// By using unsigned integers, I'm sidestepping the case
+// where the result is an imaginary number.
 func Sqrt(x uint64) (float64, int) {
-	// By using unsigned integers, I'm explicitly
-	// ignoring results with imaginary numbers.
 
 	// Special case for x = 0
 	if x == 0 {

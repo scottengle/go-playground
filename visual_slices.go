@@ -2,9 +2,9 @@ package main
 
 import "code.google.com/p/go-tour/pic"
 
+// Create a slice of dy slices each of length dx
+// containing an 8-bit unsigned integer.
 func Pic(dx, dy int) [][]uint8 {
-	// Creates a slice of dy slices each of length dx
-	// containing an 8-bit unsigned integer.
 
 	// Initialize the outer slice
 	y := make([][]uint8, dy)

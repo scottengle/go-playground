@@ -5,8 +5,8 @@ import (
 	"strings"
 )
 
+// Determine word count for each word in the specified string
 func WordCount(s string) map[string]int {
-	// Determines word count for each word in the specified string
 
 	// Create a new map with string keys and integer values
 	word_map := make(map[string]int)
