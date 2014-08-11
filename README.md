@@ -14,6 +14,7 @@ Filename | Description
 --- | ---
 fibonacci.go | Calculates the value of a fibonacci sequence using a closure.
 http_handlers.go | A simple HTTP handler example to demonstrate how to handle HTTP requests and register routes.<br/><br/>Start this example with:<br/>go run http_handlers.go<br/><br/>Output can be seen in a web browser by opening:<br/>http://localhost:4000/string<br/>http://localhost:4000/struct
+images.go | Generates a bluescale image using the code.google.com/p/go-tour/pic and built-in image packages. To see the image, run the contents of this file at the Go Playground: http://play.golang.org
 newton_raphson_cbrt.go | Approximates the value of a complex cube root using the Newton-Raphson method.
 newton_raphson_sqrt.go | Approximates the value of a square root using the Newton-Raphson method.
 newton_raphson_sqrt_2.go | Approximates the value of a square root using the Newton-Raphson method. This version throws a proper error when called with negative numbers.
