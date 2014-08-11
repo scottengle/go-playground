@@ -19,5 +19,6 @@ newton_raphson_cbrt.go | Approximates the value of a complex cube root using the
 newton_raphson_sqrt.go | Approximates the value of a square root using the Newton-Raphson method.
 newton_raphson_sqrt_2.go | Approximates the value of a square root using the Newton-Raphson method. This version throws a proper error when called with negative numbers.
 rot13.go | Decodes a string using the ROT13 substitution cipher.
+treewalker.go | Walks two binary trees and tests them for equality.
 visual_slices.go | Generates a bluescale image using the code.google.com/p/go-tour/pic package. To see the image, run the contents of this file at the Go Playground: http://play.golang.org
 word_count.go | Determines word count of a string utilizing maps.
